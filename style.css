@@ -1,0 +1,488 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    gap: 30px;
+    margin: 0px;
+  }
+  .icons li{
+    list-style: none;
+    gap: 60px;
+    text-align: center;
+    margin: 0;
+    font-size: 20px;
+  }
+
+  .row > div > h5,
+.row > div > p {
+border-bottom: 1px solid #ccc;
+margin-bottom: 5px; 
+padding-bottom: 5px; 
+}
+
+.table > :not(caption) > * > * {
+  padding: 0;}
+
+  @media screen {
+    html,body{
+        width: 100%;
+       
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    }
+
+   
+  .chart {
+    display: flex;
+    justify-content: space-around;
+    
+    height: 300px;
+    width: 300px;
+    
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  .column {
+    width: 20%;
+    background-color: #3498db; 
+    transition: height 0.5s ease-in-out;
+  }
+  .chart1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    height: 500px;
+    width: 500px;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+
+
+
+  .header h2 {
+    font-size: 22px;
+    font-weight: 900;
+    margin: 0;
+    margin-bottom: 5px;
+    margin-top: 8px;
+}
+
+.content-1 {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px 4px rgba(94, 98, 103, 0.12);
+    padding: 10px;
+}
+
+.content-1 .options {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.content-1 .options i {
+    
+    font-size: 18px;
+}
+
+.content-1-table {
+    max-height: 240px;
+    overflow: scroll;
+}
+
+.content-1-table::-webkit-scrollbar {
+    display: none;
+}
+.content-2-table::-webkit-scrollbar {
+  display: none;
+}
+
+.main table th {
+   
+    padding: 0 15px;
+    border-right: none;
+}
+
+.main table th:nth-child(2) {
+
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0 15px;
+    border-left: none;
+}
+
+.main table tr td {
+   
+  
+    font-weight: 500;
+    padding: 0 15px;
+   
+}
+
+.grey-active {
+    background-color: #859DB6 !important;
+    color: #fff !important;
+}
+
+.blue-btns .border-btn {
+    border: 1px solid #036;
+    border-radius: 2px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    padding: 0 20px;
+    font-weight: 400;
+    font-size: 12px;
+    display: flex;
+
+}
+
+.blue-btns .fill-btn {
+    background-color: #036;
+    color: #fff;
+    border-radius: 2px;
+    padding: 0 20px;
+    font-weight: 400;
+    font-size: 12px;
+    display: flex;
+    
+}
+
+.table-top-data .blue-div {
+    height: 12px;
+    width: 13px;
+    background-color: #2A84FE;
+}
+
+.table-top-data .yellow-div {
+    height: 12px;
+    width: 13px;
+    background-color: #FFC500;
+}
+
+.table-top-data p {
+   
+    font-size: 12px;
+    font-weight: 500;
+    margin: 0 3px;
+}
+
+
+.switch {
+    --secondary-container: #CCD6E0;
+    --primary: #003366;
+    font-size: 10px;
+    position: relative;
+    display: inline-block;
+    width: 3.7em;
+    height: 1.8em;
+}
+
+.switch input {
+    display: none;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #CCD6E0;
+    transition: .2s;
+    border-radius: 30px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 1.4em;
+    width: 1.4em;
+    border-radius: 20px;
+    left: 0.2em;
+    bottom: 0.2em;
+    background-color: #003366;
+    transition: .4s;
+}
+
+
+
+.drop {
+    border-radius: 2px;
+    border: 1px solid var(--primary, #036);
+    padding: 0 10px;
+    background: #FFF;
+}
+
+.graph-container {
+    overflow-x: scroll;
+}
+
+.graph-container::-webkit-scrollbar {
+    display: none;
+}
+
+.graph {
+    border: 1px solid #EBEBF9;
+    border-top: none;
+    border-right: none;
+    width: 478.123px;
+    height: 255.273px;
+    position: relative;
+
+}
+
+.graph .bar:nth-child(odd) {
+    width: 20px;
+    background: #2A84FE;
+}
+
+.graph .bar:nth-child(even) {
+    width: 20px;
+    background: #FFC500;
+}
+
+#Volume {
+    font-size: 10.831px;
+    font-weight: 500;
+    line-height: normal;
+    position: absolute;
+    top: 50%;
+    left: -4%;
+    transform: translate(-50%, -50%);
+    rotate: -90deg;
+}
+
+#time {
+    font-size: 10.831px;
+    font-weight: 500;
+    line-height: normal;
+    position: absolute;
+    top: 104%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+}
+
+.graph-and-tables table th {
+    
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 0 15px;
+    border-right: none;
+}
+
+.graph-and-tables table th:nth-child(2) {
+    color: #1A1E2C;
+    font-size: 11px !important;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 0 15px;
+    border-right: none;
+}
+
+.graph-and-tables table td {
+    color: #1A1E2C;
+    font-size: 11px !important;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 0 15px;
+    border-right: none;
+}
+
+.graph-and-tables .options h6 {
+    color: #2D264B;
+    font-size: 15.138px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+}
+
+.graph-and-tables .content-box-table {
+    overflow: scroll;
+    max-height: 90px;
+}
+
+.intraday .options p {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+
+
+
+.intraday table th:nth-child(1) {
+    color: #1A1E2C;
+    font-size: 14px !important;
+    font-weight: bold;
+    line-height: normal;
+    padding: 0 10px;
+
+}
+
+.intraday table th:nth-child(2) {
+    
+    
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 0 10px;
+}
+
+.intraday table tr th {
+  
+    font-size: 14px !important;
+    font-weight: 400;
+    line-height: normal;
+    padding: 0 10px;
+    border-right: 1px solid #dee2e6;
+}
+
+.intraday table tr td {
+  
+    font-size: 14px !important;
+    font-weight: 400;
+    line-height: normal;
+    padding: 0 10px;
+    border-left: 1px solid #dee2e6;
+
+}
+
+.auctions .content-box-table {
+    overflow: scroll;
+    height: 130px;
+}
+
+.auctions .content-box-table::-webkit-scrollbar {
+    display: none;
+}
+
+.green-fill {
+    background-color: #00d4554a !important;
+    color: #18A900 !important;
+}
+
+.red-fill {
+    background-color: #fe252549 !important;
+    color: #f00 !important;
+    ;
+}
+
+.zero-fill {
+    background-color: #F2F2F2 !important;
+}
+
+.breakdown .breakdown-top-data p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0 3px;
+}
+
+.breakdown table tr td {
+    border-right: none;
+    padding: 4px 30px;
+}
+
+.breakdown table th {
+    font-weight: 400;
+    padding: 4px 30px;
+    text-align: center;
+    white-space: nowrap;
+
+}
+
+.breakdown-table-container {
+    overflow: scroll;
+}
+
+.breakdown-table-container::-webkit-scrollbar {
+    display: none;
+}
+
+
+.blue-fill {
+    background: rgba(128, 163, 255, 0.50) !important;
+    color: #4300E7 !important;
+}
+
+.analysis table tr td {
+    border-left: 1px solid #dee2e6;
+}
+.small-graph-container{
+    overflow-x:scroll;
+}
+.small-graph-container::-webkit-scrollbar{
+    display: none;
+}
+
+.small-graph {
+    border: 1px solid #EBEBF9;
+    border-top: none;
+    border-right: none;
+    width: 230px;
+    height: 140px;
+    position: relative;
+
+}
+
+.stats-y {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: -12%;
+    transform: translate(-50%, -50%)
+}
+
+.stats-y p {
+  
+    font-size: 14px;
+   
+    font-weight: 400;
+    line-height: normal;
+    text-align: end;
+    margin: 30px 0;
+}
+
+.stats-x {
+    display: inline-block;
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.stats-x p {
+   
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: end;
+    margin: 0px 6px;
+}
+
+
+.small-graph .bar{
+    width: 50px;
+background-color: #4300E7;
+
+}

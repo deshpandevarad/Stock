@@ -1,0 +1,933 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    
+
+</head>
+<body>
+  <section class="first-section" style="background-color: white;">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" style="font-weight: bold; font-size: 30px;">OTS solutions</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="margin-left: 100px; gap: 70px;">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#" style="color: blue; font-weight: bold;">Stock</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Indices</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">My List</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Graphs Radar</a>
+              </li>
+              
+            </ul>
+
+            <ul class="icons">
+              <img src="switch.png">
+              <li><i class="fa-solid fa-rotate-left"></i></li>
+              <li><i class="fa-solid fa-grip-lines-vertical"></i></i></li>
+              <li><i class="fa-solid fa-file"></i></li>
+              <li><i class="fa-solid fa-camera"></i></li>
+              <li><i class="fa-solid fa-bell"></i></li>
+             <li><i class="fa-regular fa-bookmark"></i></li> 
+
+            </ul>
+
+
+            
+          </div>
+        </div>
+      </nav>
+  </section>
+  
+
+  <section class="section-2">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-6" style="margin-top: 10px;">
+            <h4><span style="font-weight: 900;">Apple INC 192.46 </span> <span style="font-size: 15px;">USD</span>  <span style="color: red;"> -1.51 - 0.78% </span>  <button type="button" class="btn btn-outline-secondary" style=" background: white; color: black;">AAPL <img src="./united-states-of-america.png" alt="" style="width: 30px;height: 30px;"> NASDAQ <i class="fa-solid fa-caret-down"></i></button>
+            </h4>        
+         </div>
+         <div class="col-md-6" style="text-align: center; margin-top: 10px;">
+          <button type="button" class="btn btn-outline-secondary" style="width: 150px;  background: white; color: black;">Apple <i class="fa-solid fa-magnifying-glass"></i></button>
+          <input class="btn btn-primary" type="button" value="Venue" style="width: 150px; background-color: #003466;">
+
+
+         </div>
+    </div>
+  </div>
+
+</section>
+<hr>
+<section class="main">
+  <div class="container-fluid px-5 py-4">
+    <div class="row">
+      <div class="col-md-3 test" id="description-box">
+        <div
+          class="header d-flex justify-content-between align-items-center px-3"
+        >
+          <div>
+            <h2>DESCRIPTION</h2>
+          </div>
+          <div>
+            <i class="fa-solid fa-chevron-up" id="Toggle-button"></i>
+          </div>
+        </div>
+        <div class="content-1" style="max-height: 330px;">
+          <div class="options gap-2">
+            <i class="fa-regular fa-circle-question"></i>
+            <i class="fa-regular fa-note-sticky"></i>
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </div>
+          <div class="content-1-table my-3">
+            <table class="table table-bordered">
+              <thead>
+                <tr>
+                  <th scope="col">Name</th>
+                  <th scope="col" class="text-end">Amazon COM ORD</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Prev_Close</th>
+                  <td class="text-end">$127.43</td>
+                </tr>
+                <tr>
+                  <th scope="row">Mkt_close</th>
+                  <td class="text-end">1,332.45 bn</td>
+                </tr>
+                <tr>
+                  <th scope="row">ADV</th>
+                  <td class="text-end">62,301,006</td>
+                </tr>
+                <tr>
+                  <th scope="row">Est Open Vol (5)*</th>
+                  <td class="text-end grey-active">602,363</td>
+                </tr>
+                <tr>
+                  <th scope="row">Est Open Vol (5)*</th>
+                  <td class="text-end grey-active">6,211,498</td>
+                </tr>
+                <tr>
+                  <th scope="row">Exp. Volm</th>
+                  <td class="text-end grey-active">44,534</td>
+                </tr>
+                <tr>
+                  <th scope="row">Volume Traded</th>
+                  <td class="text-end grey-active">17,218,342</td>
+                </tr>
+                <tr>
+                  <th scope="row">Resid Vol Ex Auct</th>
+                  <td class="text-end grey-active">22,126,756</td>
+                </tr>
+                <tr>
+                  <th scope="row">Currency</th>
+                  <td class="text-end">USD</td>
+                </tr>
+                <tr>
+                  <th scope="row">Volatility</th>
+                  <td class="text-end">31%</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6" id="avg-box">
+        <div class="header d-flex justify-content-between align-items-center px-3 flex-wrap" >
+        <div class="content-1 mb-2" style="width: 40%; padding: 0px 10px; display: none;" id="revert">
+          <div class="header d-flex justify-content-between align-items-center px-3">
+          <div>
+            <h2>DESCRIPTION</h2>
+          </div>
+          
+        </div>
+        </div>
+          <div>
+            <h2>5 Day Avg</h2>
+          </div>
+          <div class="d-flex gap-2 blue-btns flex-wrap">
+            <div class="d-flex">
+              <div class="border-btn">2000</div>
+              <div class="fill-btn">Shares</div>
+            </div>
+            <div class="d-flex">
+              <div class="border-btn">5</div>
+              <div class="fill-btn">Set Periods</div>
+            </div>
+            
+          </div>
+        </div>
+        <div class="content-1" >
+          <div
+            class="d-flex justify-content-between align-items-center table-top-data flex-wrap"
+          >
+            <div class="d-flex gap-2 align-items-center flex-wrap">
+              <div class="d-flex align-items-center">
+                <div class="blue-div" style="height: 12px;width: 13px;background-color: #2A84FE;"></div>
+                <p>1day</p>
+              </div>
+              <div class="d-flex align-items-center">
+                <div class="yellow-div" style="height: 12px;width: 13px;background-color: #FFC500;"></div>
+                <p>5day</p>
+              </div>
+              <div class="d-flex align-items-center gap-2">
+                <p>Commulative</p>
+                <label class="switch">
+                  <input type="checkbox" />
+                  <span class="slider"></span>
+                </label>
+                <p>Non Commulative</p>
+              </div>
+            </div>
+            <div class="d-flex align-items-center gap-2">
+              <p>Select Periods</p>
+              <div
+                class="drop d-flex justify-content-center align-items-center"
+              >
+                <p>POV</p>
+                <i class="fa-solid fa-chevron-down"></i>
+              </div>
+            </div>
+          </div>
+          <div class="row graph-and-tables">
+            <div class="col-md-8 px-4 pb-3 graph-container" style="overflow-x: scroll;">
+              <div class="graph d-flex align-items-end gap-2">
+                <div class="bar ms-2" style="height: 90%"></div>
+                <div class="bar" style="height: 70%"></div>
+                <div class="bar" style="height: 90%"></div>
+                <div class="bar" style="height: 40%"></div>
+                <div class="bar" style="height: 70%"></div>
+                <div class="bar" style="height: 80%"></div>
+                <div class="bar" style="height: 65%"></div>
+                <div class="bar" style="height: 60%"></div>
+                <div class="bar" style="height: 90%"></div>
+                <div class="bar" style="height: 60%"></div>
+                <div class="bar" style="height: 90%"></div>
+                <div class="bar" style="height: 60%"></div>
+                <div class="bar" style="height: 90%"></div>
+                <div class="bar" style="height: 70%"></div>
+                <div class="bar" style="height: 65%"></div>
+                <div class="bar" style="height: 60%"></div>
+                <div class="bar" style="height: 90%"></div>
+                <div class="bar" style="height: 60%"></div>
+                <div class="bar" style="height: 65%"></div>
+                <div class="bar" style="height: 40%"></div>
+                <div class="bar" style="height: 90%"></div>
+                <div class="bar" style="height: 65%"></div>
+                <div class="bar" style="height: 70%"></div>
+                <div class="bar" style="height: 65%"></div>
+                <div class="bar" style="height: 90%"></div>
+                <div class="bar" style="height: 90%"></div>
+                <div class="bar" style="height: 65%"></div>
+                <div class="bar" style="height: 70%"></div>
+                <div class="bar" style="height: 65%"></div>
+                <div class="bar" style="height: 90%"></div>
+                
+                <p id="Volume">Volume</p>
+                <p id="time">Time</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div>
+                <div
+                  class="options gap-2 align-items-center justify-content-between"
+                >
+                  <div>
+                    <h6>Historical</h6>
+                  </div>
+                  <div>
+                    <i class="fa-regular fa-note-sticky"></i>
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  </div>
+                </div>
+                <div class="content-1-table mb-3">
+                  <table class="table table-bordered">
+                    <thead>
+                      <tr>
+                        <th scope="col">Total Difficulty(0.1)</th>
+                        <th scope="col" class="text-end grey-active">
+                          0.11
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">Market Impact</th>
+                        <td class="text-end">1.49</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Volatility Risk (bps)</th>
+                        <td class="text-end grey-active">198.3</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Expected Duration</th>
+                        <td class="text-end">2.5</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Expected Pov</th>
+                        <td class="text-end grey-active">5.00%</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+
+              <div>
+                <div
+                  class="options gap-2 align-items-center justify-content-between"
+                >
+                  <div>
+                    <h6>Intraday</h6>
+                  </div>
+                  <div>
+                    <i class="fa-regular fa-note-sticky"></i>
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  </div>
+                </div>
+                <div class="content-1-table mb-3">
+                  <table class="table table-bordered">
+                    <thead>
+                      <tr>
+                        <th scope="col">Total Difficulty(0.1)</th>
+                        <th scope="col" class="text-end grey-active">
+                          0.11
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">Market Impact</th>
+                        <td class="text-end">1.49</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Volatility Risk (bps)</th>
+                        <td class="text-end grey-active">198.3</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Expected Duration</th>
+                        <td class="text-end">2.5</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Expected Pov</th>
+                        <td class="text-end grey-active">5.00%</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 intraday test" id="intraday-box">
+        <div
+          class="header d-flex justify-content-between align-items-center px-3"
+        >
+          <div>
+            <h2>Intraday</h2>
+          </div>
+          <div>
+            <i class="fa-solid fa-angle-up"></i>
+          </div>
+        </div>
+        <div class="content-1" style="max-height: 330px;">
+          <div class="options gap-1 align-items-center">
+            <i class="fa-solid fa-arrow-right-arrow-left"></i>
+            <p>Swap to Tree map</p>
+          </div>
+          <div class="content-2-table my-3" style="max-height: 250px;
+          overflow: scroll;">
+            <table class="table table-bordered">
+              <thead>
+                <tr>
+                  <th scope="col"></th>
+                  <th scope="col" class="">Mkt Shr</th>
+                  <th scope="col" class="">Volume</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row" class="text-end">**PRIMARY**NASD</th>
+                  <td class="">18.0%</td>
+                  <td class="">3,354,320</td>
+                </tr>
+                <tr>
+                  <th scope="row" class="text-end">Open Auct</th>
+                  <td class="">3.1%</td>
+                  <td class="">592,378</td>
+                </tr>
+                <tr>
+                  <th scope="row" class="text-end">Close Auct</th>
+                  <td class=""></td>
+                  <td class=""></td>
+                </tr>
+                <tr>
+                  <th scope="row" class="text-end">**OTHERS**TRF</th>
+                  <td class="">52.5%</td>
+                  <td class="">9,485,332</td>
+                </tr>
+                <tr>
+                  <th scope="row" class="text-end">Open Auct</th>
+                  <td class="">2.5%</td>
+                  <td class="">2,232</td>
+                </tr>
+                <tr>
+                  <th scope="row" class="text-end">Close Auct</th>
+                  <td class=""></td>
+                  <td class=""></td>
+                </tr>
+                <tr>
+                  <th scope="row" class="text-end">**PRIMARY**NASD</th>
+                  <td class="">18.0%</td>
+                  <td class="">3,354,320</td>
+                </tr>
+                <tr>
+                  <th scope="row" class="text-end">Open Auct</th>
+                  <td class="">3.1%</td>
+                  <td class="">592,378</td>
+                </tr>
+                <tr>
+                  <th scope="row" class="text-end">Close Auct</th>
+                  <td class=""></td>
+                  <td class=""></td>
+                </tr>
+                <tr>
+                  <th scope="row" class="text-end">**OTHERS**TRF</th>
+                  <td class="">52.5%</td>
+                  <td class="">9,485,332</td>
+                </tr>
+                <tr>
+                  <th scope="row" class="text-end">Open Auct</th>
+                  <td class="">2.5%</td>
+                  <td class="">2,232</td>
+                </tr>
+                <tr>
+                  <th scope="row" class="text-end">Close Auct</th>
+                  <td class=""></td>
+                  <td class=""></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="main second-row">
+  <div class="container-fluid px-5 py-4">
+    <div class="row">
+      <div class="col-md-3 auctions" id="auction-box">
+        <div class="header d-flex justify-content-between align-items-center px-3">
+          <div>
+            <h2>Auctions</h2>
+          </div>
+          <div>
+            <i class="fa-solid fa-angle-up"></i>
+          </div>
+        </div>
+        <div class="content-1">
+         
+          <div class="content-1-table mb-3 mt-2">
+            <table class="table table-bordered">
+              <thead></thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Open Price</th>
+                  <td class="text-end" style="color: #4300e7">$123.60</td>
+                </tr>
+                <tr>
+                  <th scope="row"><li>Est Open Vol (5d)*</li></th>
+                  <td class="text-end">602,343</td>
+                </tr>
+                <tr>
+                  <th scope="row"><li>Auction Vol</li></th>
+                  <td class="text-end">591,370</td>
+                </tr>
+                <tr>
+                  <th scope="row">Close Price</th>
+                  <td class="text-end"></td>
+                </tr>
+                <tr>
+                  <th scope="row"><li>Est Close Vol (5D)*</li></th>
+                  <td class="text-end">6,211,498</td>
+                </tr>
+                <tr>
+                  <th scope="row"><li>Auction Vol</li></th>
+                  <td class="text-end"></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="header d-flex align-items-center px-3">
+            <div>
+              <h2>Factors</h2>
+            </div>
+          </div>
+          <div class="content-box-table mb-3 mt-2">
+            <table class="table table-bordered">
+              <thead>
+                <tr></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Stock</th>
+                  <td class="text-end green-fill">106.4</td>
+                </tr>
+                <tr>
+                  <th scope="row">Factor</th>
+                  <td class="text-end green-fill">147.9</td>
+                </tr>
+                <tr>
+                  <th scope="row">Style</th>
+                  <td class="text-end green-fill">49.9</td>
+                </tr>
+                <tr>
+                  <th scope="row">Country</th>
+                  <td class="text-end green-fill">76.4</td>
+                </tr>
+                <tr>
+                  <th scope="row">Industry</th>
+                  <td class="text-end green-fill">78.3</td>
+                </tr>
+                <tr>
+                  <th scope="row">Unexpl</th>
+                  <td class="text-end red-fill">-40.33</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 breakdown" id="breakdown-box">
+        <div
+          class="header d-flex justify-content-between align-items-center px-3">
+        <div class="content-1 mb-2" style="width: 40%; padding: 0px 10px; display: none;" id="revert-auction">
+          <div
+          class="header d-flex justify-content-between align-items-center px-3">
+          <div>
+            <h2>Auctions</h2>
+          </div>
+          <div>
+            <i class="ri-arrow-up-s-line" id="auc-revert-btn"></i>
+          </div>
+        </div>
+        </div>
+          <div>
+            <h2>Breakdown Vs 5D Avg</h2>
+          </div>
+        </div>
+        <div class="content-1">
+          <div class="options gap-2 mb-3 align-items-center">
+            <div class="d-flex align-items-center gap-2 breakdown-top-data">
+              <p>Commulative</p>
+              <label class="switch">
+                <input type="checkbox" />
+                <span class="slider"></span>
+              </label>
+              <p>Non Commulative</p>
+            </div>
+            <i class="fa-regular fa-note-sticky"></i>
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </div>
+
+          <div class="breakdown-table-container">
+            <table class="table table-bordered">
+              <thead>
+                <tr>
+                  <th scope="col" style="border-right: 1px solid #dee2e6">
+                    Hour
+                  </th>
+                  <th scope="col">Volume</th>
+                  <th scope="col"></th>
+                  <th scope="col">Sprd(bps)</th>
+                  <th scope="col"></th>
+                  <th scope="col">Disp Size</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">11:45</th>
+                  <td>17,043</td>
+                  <td class="red-fill">-22.6%</td>
+                  <td class="text-center">1.2</td>
+                  <td class="green-fill">22.6%</td>
+                  <td>170.9</td>
+                </tr>
+                <tr>
+                  <th scope="row">11:30</th>
+                  <td>12,390</td>
+                  <td class="red-fill">-11.1%</td>
+                  <td class="text-center">1.2</td>
+                  <td class="red-fill">11.1%</td>
+                  <td>157</td>
+                </tr>
+                <tr>
+                  <th scope="row">11:15</th>
+
+                  <td>22,333</td>
+                  <td class="green-fill">-22.6%</td>
+                  <td class="text-center">1.2</td>
+                  <td class="green-fill">22.6%</td>
+                  <td>453</td>
+                </tr>
+                <tr>
+                  <th scope="row">11:00</th>
+
+                  <td>92,470</td>
+                  <td class="green-fill">-11.1%</td>
+                  <td class="text-center">1.2</td>
+                  <td class="green-fill">11.1%</td>
+                  <td>463</td>
+                </tr>
+                <tr>
+                  <th scope="row">10:45</th>
+
+                  <td>10,248</td>
+                  <td class="red-fill">-22.6%</td>
+                  <td class="text-center">1.2</td>
+                  <td class="red-fill">22.6%</td>
+                  <td>246</td>
+                </tr>
+                <tr>
+                  <th scope="row">10:30</th>
+
+                  <td>92,470</td>
+                  <td class="red-fill">-11.1%</td>
+                  <td class="text-center">1.2</td>
+                  <td class="red-fill">11.1%</td>
+                  <td>642</td>
+                </tr>
+                <tr>
+                  <th scope="row">10:15</th>
+
+                  <td>10,248</td>
+                  <td class="green-fill">-22.6%</td>
+                  <td class="text-center">1.2</td>
+                  <td class="green-fill">22.6%</td>
+                  <td>158</td>
+                </tr>
+                <tr>
+                  <th scope="row">10:00</th>
+
+                  <td>92,470</td>
+                  <td class="red-fill">-11.1%</td>
+                  <td class="text-center">1.2</td>
+                  <td class="green-fill">11.1%</td>
+                  <td>246</td>
+                </tr>
+                <tr>
+                  <th scope="row">09:45</th>
+
+                  <td>10,248</td>
+                  <td class="green-fill">-22.6%</td>
+                  <td class="text-center">1.2</td>
+                  <td class="zero-fill">0</td>
+                  <td>235</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 intraday">
+        <div
+          class="header d-flex justify-content-between align-items-center px-3"
+        >
+          <div>
+            <h2>History</h2>
+          </div>
+          <div>
+            <i class="fa-solid fa-angle-up"></i>
+          </div>
+        </div>
+        <div class="content-1">
+          <div class="options gap-1 align-items-center">
+            <i class="fa-solid fa-arrow-right-arrow-left"></i>
+            <p>Swap to Tree map</p>
+          </div>
+          <div class="content-1-table my-3" style="max-height: 400px">
+            <table class="table table-bordered">
+              <thead>
+                <tr>
+                  <th scope="col"></th>
+                  <th scope="col" class="">Mkt Shr</th>
+                  <th scope="col" class="">Volume</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row" class="text-end">**PRIMARY** NASD</th>
+                  <td class="">18.0%</td>
+                  <td class="">3,354,320</td>
+                </tr>
+                <tr>
+                  <th scope="row" class="text-end">Open Auct</th>
+                  <td class="">3.1%</td>
+                  <td class="">592,378</td>
+                </tr>
+                <tr>
+                  <th scope="row" class="text-end">Close Auct</th>
+                  <td class=""></td>
+                  <td class=""></td>
+                </tr>
+                <tr>
+                  <th scope="row" class="text-end">**OTHERS** TRF</th>
+                  <td class="">52.5%</td>
+                  <td class="">9,485,332</td>
+                </tr>
+                <tr>
+                  <th scope="row" class="text-end">Open Auct</th>
+                  <td class="">2.5%</td>
+                  <td class="">2,232</td>
+                </tr>
+                <tr>
+                  <th scope="row" class="text-end">Close Auct</th>
+                  <td class=""></td>
+                  <td class=""></td>
+                </tr>
+                <tr>
+                  <th scope="row" class="text-end">**PRIMARY** NASD</th>
+                  <td class="">18.0%</td>
+                  <td class="">3,354,320</td>
+                </tr>
+                <tr>
+                  <th scope="row" class="text-end">Open Auct</th>
+                  <td class="">3.1%</td>
+                  <td class="">592,378</td>
+                </tr>
+                <tr>
+                  <th scope="row" class="text-end">Close Auct</th>
+                  <td class=""></td>
+                  <td class=""></td>
+                </tr>
+                <tr>
+                  <th scope="row" class="text-end">**OTHERS** TRF</th>
+                  <td class="">52.5%</td>
+                  <td class="">9,485,332</td>
+                </tr>
+                <tr>
+                  <th scope="row" class="text-end">Open Auct</th>
+                  <td class="">2.5%</td>
+                  <td class="">2,232</td>
+                </tr>
+                <tr>
+                  <th scope="row" class="text-end">Close Auct</th>
+                  <td class=""></td>
+                  <td class=""></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="main third-row">
+  <div class="container-fluid px-5 py-4">
+    <div class="row">
+      <div class="col-md-3 blocks" id="blocks-box">
+        <div
+          class="header d-flex justify-content-between align-items-center px-3"
+        >
+          <div>
+            <h2>Blocks</h2>
+          </div>
+          <div>
+            <i class="ri-arrow-up-s-line" id="blocks-btn"></i>
+          </div>
+        </div>
+        <div class="content-1" style="height: 250px">
+          
+          <div class="content-1-table mb-3 mt-2">
+            <table class="table table-bordered">
+              <thead>
+                <tr>
+                  <th scope="col" style="border: 1px solid #fff"></th>
+                  <th
+                    scope="col"
+                    style="
+                      border: 1px solid #fff;
+                      border-bottom: 1px solid #dee2e6;"> Volm</th>
+                  <th
+                    scope="col"
+                    style="
+                      border: 1px solid #fff;
+                      border-bottom: 1px solid #dee2e6;"> % Total </th>
+                  <th
+                    scope="col"
+                    style="
+                      border: 1px solid #fff;
+                      border-bottom: 1px solid #dee2e6;"> Trds </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row" style="border: 1px solid #fff">TRF</th>
+                  <td class="text-center grey-active">76.4</td>
+                  <td class="text-center grey-active">49.9</td>
+                  <td class="text-center">147.9</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 analysis" id="analytics-box">
+        <div class="header d-flex justify-content-between align-items-center px-3">
+        <div class="content-1 mb-2" style="width: 40%; padding: 0px 10px; display: none;" id="revert-blocks" >
+          <div class="header d-flex justify-content-between align-items-center px-3">
+          <div>
+            <h2>Blocks</h2>
+          </div>
+          <div>
+            <i class="ri-arrow-up-s-line" id="revert-blocks-btn"></i>
+          </div>
+        </div>
+        </div>
+          <div>
+            <h2>Analytics</h2>
+          </div>
+        </div>
+        <div class="content-1">
+          <div class="options gap-2 mb-3 align-items-center">
+            <i class="ri-survey-line"></i>
+            <i class="ri-share-box-fill"></i>
+          </div>
+
+          <div class="breakdown-table-container">
+            <table class="table table-bordered">
+              <thead>
+                <tr>
+                  <th
+                    scope="col"
+                    class="text-center"
+                    style="border-right: 1px solid #dee2e6"
+                  ></th>
+                  <th scope="col" class="text-center">30D</th>
+                  <th scope="col" class="text-center">5D</th>
+                  <th scope="col" class="text-center">Intraday</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Volume</th>
+                  <td>55,435,456</td>
+                  <td class="">55,435,456</td>
+                  <td class="text-center blue-fill">22.6%</td>
+                </tr>
+                <tr>
+                  <th scope="row">%off Exch</th>
+                  <td>57</td>
+                  <td class="">57</td>
+                  <td class="text-center blue-fill">11.1%</td>
+                </tr>
+                <tr>
+                  <th scope="row">Trade Freq</th>
+
+                  <td>426,897</td>
+                  <td class="">426,897</td>
+                  <td class="text-center blue-fill">6%</td>
+                </tr>
+                <tr>
+                  <th scope="row">Touch Size</th>
+
+                  <td>567</td>
+                  <td class="">567</td>
+                  <td class="text-center blue-fill">5.9%</td>
+                </tr>
+                <tr>
+                  <th scope="row">Spread</th>
+
+                  <td>0.8</td>
+                  <td class="">0.8</td>
+                  <td class="text-center blue-fill">5.9%</td>
+                </tr>
+                <tr>
+                  <th scope="row">Open Vol</th>
+
+                  <td>6,267,295</td>
+                  <td class="">6,267,295</td>
+                  <td class="text-center blue-fill">4%</td>
+                </tr>
+                <tr>
+                  <th scope="row">Close Val</th>
+
+                  <td>1,234,22</td>
+                  <td class="">1,234,22</td>
+                  <td class="text-center blue-fill">4%</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 stats">
+        <div class="header d-flex justify-content-between align-items-center px-3">
+          <div>
+            <h2>Stats Vs 5D Avg</h2>
+          </div>
+          <div>
+            <i class="ri-arrow-up-s-line"></i>
+          </div>
+        </div>
+
+        <div class="content-1" style="height: 250px">
+          <div class="small-graph-container d-flex justify-content-center justify-content-md-start pb-5 px-2">
+           
+            <div class="small-graph mt-3 d-flex">
+              <div class="bar mx-3" style="height: 80%"></div>
+              <div
+                class="bar mx-3"
+                style="height: 20%; background-color: #4300e7"></div>
+              <div
+                class="bar mx-3"
+                style="height: 15%; background-color: #4100e793"  ></div>
+              <div class="bar mx-3" style="height: 60%"></div>
+
+              <div class="stats-y">
+                <p>0.0%</p>
+                <p>-20.0%</p>
+                <p>-40.0%</p>
+              </div>
+              <div class="stats-x d-flex">
+                <p>Volume</p>
+                <p>Volatility</p>
+                <p>Sprd</p>
+                <p>#Trds</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+      
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>             
+    
+</body>
+</html>
